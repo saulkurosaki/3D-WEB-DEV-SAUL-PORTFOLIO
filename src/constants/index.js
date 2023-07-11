@@ -13,8 +13,8 @@ import {
     nodejs,
     mongodb,
     git,
-    figma,
-    docker,
+    api,
+    githublogo,
     meta,
     utel,
     udemy,
@@ -22,7 +22,7 @@ import {
     carrent,
     jobit,
     tripguide,
-    threejs,
+    npm,
   } from "../assets";
   
   export const navLinks = [
@@ -97,20 +97,20 @@ import {
       icon: mongodb,
     },
     {
-      name: "Three JS",
-      icon: threejs,
-    },
-    {
       name: "git",
       icon: git,
     },
     {
-      name: "figma",
-      icon: figma,
+      name: "github",
+      icon: githublogo,
     },
     {
-      name: "docker",
-      icon: docker,
+      name: "Npm",
+      icon: npm,
+    },
+    {
+      name: "api",
+      icon: api,
     },
   ];
   
