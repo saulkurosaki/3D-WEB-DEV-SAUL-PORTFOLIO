@@ -19,9 +19,12 @@ import {
     utel,
     udemy,
     dev,
-    carrent,
-    jobit,
-    tripguide,
+    dashboard,
+    virtualpinboard,
+    ytclone,
+    homerent,
+    musicapp,
+    fitnessapp,
     npm,
   } from "../assets";
   
@@ -198,67 +201,130 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Ecommerce Dashboard",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Web Ecommerce Dashboard where the user can manage the earnings, the customers, products, sales and refunds updates, the orders, employees and customers charts, and so much more management tools.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
-        },
-        {
-          name: "mongodb",
-          color: "green-text-gradient",
         },
         {
           name: "tailwind",
+          color: "green-text-gradient",
+        },
+        {
+          name: "rapidapi",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: dashboard,
+      source_code_link: "https://github.com/saulkurosaki/DASHBOARD-PROJECT",
     },
     {
-      name: "Job IT",
+      name: "Social Pin App",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Social Media Pin Application to login with google, post your favorite images as pins, share posts, comment your friends images, follow your partners or favorite content creators and save awesome pins.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "sanity",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "google-auth-api",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: virtualpinboard,
+      source_code_link: "https://github.com/saulkurosaki/SHAREME-SOCIAL-M-APP-PROJECT",
     },
     {
-      name: "Trip Guide",
+      name: "Youtube Clone",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "A clone of one of the most popular, industry leading and antique video streaming platform. You can search your favorite music or creative videos, as well as your favorite artists and stay updated with new content.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "materialui5",
+          color: "green-text-gradient",
+        },
+        {
+          name: "rapidapi",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: ytclone,
+      source_code_link: "https://github.com/saulkurosaki/YOUTUBE-CLONE-PROJECT",
+    },
+    {
+      name: "Home Rent",
+      description:
+        "A home rental search application to see the most updated, fabulous and functional livings according to your needs. In which you can explore the infinity of best located apartments to live the life of your dreams.",
       tags: [
         {
           name: "nextjs",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "chakraui",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "rapidapi",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: homerent,
+      source_code_link: "https://github.com/saulkurosaki/REAL-ESTATE-APP-PROJECT",
+    },
+    {
+      name: "Music Streaming App",
+      description:
+        "A Music Streaming Application to play your favorite bands and artists, stay updated on the most popular and top listening charts, discover the people around you music and explore new generes you might love.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "redux",
+          color: "green-text-gradient",
+        },
+        {
+          name: "rapidapi",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: musicapp,
+      source_code_link: "https://github.com/saulkurosaki/MUSIC-APP-PROJECT",
+    },
+    {
+      name: "Fitness Exercises App",
+      description:
+        "The new training app to learn how to manage, perform your workout times and exercises and maintain your gains all by your self. In which you'll be capable to search any exercise available and learn how to do it the proper way.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "materialui5",
+          color: "green-text-gradient",
+        },
+        {
+          name: "rapidapi",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: fitnessapp,
+      source_code_link: "https://github.com/saulkurosaki/FITNESS-EXERCISES-APP-PROJECT",
     },
   ];
   
