@@ -26,9 +26,12 @@ import dev from "./company/dev.png";
 import utel from "./company/utel.png";
 import udemy from "./company/udemy.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import dashboard from "./dashboard.png";
+import virtualpinboard from "./virtualpinboard.png";
+import ytclone from "./ytclone.png";
+import homerent from "./homerent.png";
+import musicapp from "./musicapp.png";
+import fitnessapp from "./fitnessapp.png";
 
 export {
   logo,
@@ -56,7 +59,10 @@ export {
   dev,
   utel,
   udemy,
-  carrent,
-  jobit,
-  tripguide,
+  dashboard,
+  virtualpinboard,
+  ytclone,
+  homerent,
+  musicapp,
+  fitnessapp,
 };
