@@ -33,6 +33,14 @@ import homerent from "./homerent.png";
 import musicapp from "./musicapp.png";
 import fitnessapp from "./fitnessapp.png";
 
+import meta_prof from './certificates/meta_prof.png';
+import meta_adv_react from './certificates/meta_adv_react.png';
+import meta_dev_caps from './certificates/meta_dev_caps.png';
+import meta_js from './certificates/meta_js.png';
+import udemy_adv_react from './certificates/udemy_adv_react.png';
+import udemy_mern from './certificates/udemy_mern.png';
+import udemy_fund_node from './certificates/udemy_fund_node.png';
+
 export {
   logo,
   backend,
@@ -65,4 +73,11 @@ export {
   homerent,
   musicapp,
   fitnessapp,
+  meta_prof,
+  meta_adv_react,
+  meta_dev_caps,
+  meta_js,
+  udemy_adv_react,
+  udemy_mern,
+  udemy_fund_node,
 };
