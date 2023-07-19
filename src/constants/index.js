@@ -26,6 +26,13 @@ import {
     musicapp,
     fitnessapp,
     npm,
+    meta_prof,
+    meta_adv_react,
+    meta_dev_caps,
+    meta_js,
+    udemy_adv_react,
+    udemy_mern,
+    udemy_fund_node,
   } from "../assets";
   
   export const navLinks = [
@@ -172,30 +179,51 @@ import {
     },
   ];
   
-  const testimonials = [
+  const certificates = [
     {
-      testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+      name: "Meta Front-End Professional Certificate",
+      image: meta_prof,
+      url: 'https://www.coursera.org/account/accomplishments/professional-cert/F8DFNFSYF32Q',
     },
     {
-      testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
+      name: "Meta Advanced React Certificate",
+      image: meta_adv_react,
+      url: 'https://www.coursera.org/account/accomplishments/verify/CCR5HE8LWFYU',
     },
     {
-      testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
+      name: "Meta Front-End Developer Capstone",
+      image: meta_dev_caps,
+      url: 'https://www.coursera.org/account/accomplishments/verify/4RA7YBLB8APM',
+    },
+    {
+      name: "Meta JavaScript Certificate",
+      image: meta_js,
+      url: 'https://www.coursera.org/account/accomplishments/verify/MKFKS6EP5G9S',
+    },
+    {
+      name: "Udemy Advanced React Certificate",
+      image: udemy_adv_react,
+      url: 'https://www.udemy.com/certificate/UC-f46c9d42-bfc0-4909-b745-682e61787f36/',
+    },
+    {
+      name: "Udemy MERN Stack Certificate",
+      image: udemy_mern,
+      url: 'https://www.udemy.com/certificate/UC-4696efc0-3172-4d4f-907c-b76b847086e3/',
+    },
+    {
+      name: "Udemy Html, Css, Js and NodeJs Certificate",
+      image: udemy_fund_node,
+      url: 'https://www.udemy.com/certificate/UC-bb820daa-39f3-4187-8165-cdeb1f3da3bc/',
+    },
+    {
+      name: "UDEMY-PENDING...",
+      image: meta_prof,
+      url: 'https://www.coursera.org/account/accomplishments/professional-cert/F8DFNFSYF32Q',
+    },
+    {
+      name: "HARVARD-CSX-PENDING...",
+      image: meta_prof,
+      url: 'https://www.coursera.org/account/accomplishments/professional-cert/F8DFNFSYF32Q',
     },
   ];
   
@@ -328,4 +356,4 @@ import {
     },
   ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { services, technologies, experiences, certificates, projects };
