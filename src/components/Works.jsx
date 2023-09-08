@@ -1,5 +1,5 @@
-import React from "react";
-import{ Tilt } from "react-tilt";
+import React, { useState } from "react";
+import { Tilt } from "react-tilt";
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
@@ -15,7 +15,11 @@ const ProjectCard = ({
   tags,
   image,
   source_code_link,
+  url,
 }) => {
+
+  const [active, setActive] = useState(false)
+
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
       <Tilt
@@ -26,24 +30,39 @@ const ProjectCard = ({
         }}
         className='bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full'
       >
-        <div className='relative w-full h-[230px]'>
-          <img
-            src={image}
-            alt='project_image'
-            className='w-full h-full object-cover rounded-2xl'
-          />
+        <div
+          className='relative w-full h-[230px] cursor-pointer rounded-2xl'
+          onClick={() => window.open(url, '_blank')}
+          onMouseOver={() => setActive(true)}
+          onMouseOut={() => setActive(false)}
+        >
+          <div>
+            <img
+              src={image}
+              alt='project_image'
+              className={`${active && 'opacity-50'} w-full h-full object-cover rounded-2xl`}
+            />
 
-          <div className='absolute inset-0 flex justify-end m-3 card-img_hover'>
-            <div
-              onClick={() => window.open(source_code_link, "_blank")}
-              className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
-            >
-              <img
-                src={github}
-                alt='source code'
-                className='w-1/2 h-1/2 object-contain'
-              />
-            </div>
+            {active && (
+              <p
+                className="absolute w-auto h-auto bottom-[100px] left-[80px] font-extrabold text-[21px] text-[#ff6200] opacity-90"
+              >
+                Explore More...
+              </p>
+            )}
+          </div>
+        </div>
+
+        <div className='absolute inset-0 flex justify-end m-3 card-img_hove h-10 w-10 left-[285px] top-[12px] rounded-full'>
+          <div
+            onClick={() => window.open(source_code_link, "_blank")}
+            className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
+          >
+            <img
+              src={github}
+              alt='source code'
+              className='w-1/2 h-1/2 object-contain'
+            />
           </div>
         </div>
 
@@ -80,7 +99,7 @@ const Works = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
         >
-          The following projects are some of my most outstanding web pages that 
+          The following projects are some of my most outstanding web pages that
           showcases my skills and experience through
           real-world examples of my work. Each project is briefly described with
           links to code repositories and live demos in it. It reflects my
