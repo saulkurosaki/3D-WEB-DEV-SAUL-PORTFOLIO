@@ -22,7 +22,7 @@ import {
     dashboard,
     virtualpinboard,
     ytclone,
-    homerent,
+    metaverse,
     musicapp,
     fitnessapp,
     npm,
@@ -33,6 +33,8 @@ import {
     udemy_adv_react,
     udemy_mern,
     udemy_fund_node,
+    meta_bas_react,
+    meta_ux_ui,
   } from "../assets";
   
   export const navLinks = [
@@ -153,7 +155,7 @@ import {
     },
     {
       title: "Front-End Professional Certificate",
-      company_name: "Meta",
+      company_name: "by Meta",
       icon: meta,
       iconBg: "#E6DEDD",
       date: "",
@@ -171,7 +173,7 @@ import {
       iconBg: "#383E56",
       date: "",
       points: [
-        "Developed a Spotify based complete, responsive and functional Music Streaming App using technologies like React, Tailwind, Redux and RapidAPI.",
+        "Developed a complete, responsive and functional Music Streaming App using technologies like React, Tailwind, Redux and RapidAPI.",
         "Developed a FullStack complete, responsive and functional Social Media App inspired in Pinterest using technologies like React, Sanity, Tailwind and Google Authentication API.",
         "Developed a complete, responsive and functional Fitness Exercises App with technologies like React, MaterialUi and RapidApi.",
         "Developed an entire, responsive and fully functional Youtube Clone App using technologies like React, MaterialUi5, and RapidApi for it.",
@@ -186,6 +188,11 @@ import {
       url: 'https://www.coursera.org/account/accomplishments/professional-cert/F8DFNFSYF32Q',
     },
     {
+      name: "Meta React Basics Certificate",
+      image: meta_bas_react,
+      url: 'https://www.coursera.org/account/accomplishments/verify/YQPK7B9VDSH3',
+    },
+    {
       name: "Meta Advanced React Certificate",
       image: meta_adv_react,
       url: 'https://www.coursera.org/account/accomplishments/verify/CCR5HE8LWFYU',
@@ -194,11 +201,6 @@ import {
       name: "Meta Front-End Developer Capstone",
       image: meta_dev_caps,
       url: 'https://www.coursera.org/account/accomplishments/verify/4RA7YBLB8APM',
-    },
-    {
-      name: "Meta JavaScript Certificate",
-      image: meta_js,
-      url: 'https://www.coursera.org/account/accomplishments/verify/MKFKS6EP5G9S',
     },
     {
       name: "Udemy Advanced React Certificate",
@@ -216,14 +218,14 @@ import {
       url: 'https://www.udemy.com/certificate/UC-bb820daa-39f3-4187-8165-cdeb1f3da3bc/',
     },
     {
-      name: "UDEMY-PENDING...",
-      image: meta_prof,
-      url: 'https://www.coursera.org/account/accomplishments/professional-cert/F8DFNFSYF32Q',
+      name: "Meta JavaScript Certificate",
+      image: meta_js,
+      url: 'https://www.coursera.org/account/accomplishments/verify/MKFKS6EP5G9S',
     },
     {
-      name: "HARVARD-CSX-PENDING...",
-      image: meta_prof,
-      url: 'https://www.coursera.org/account/accomplishments/professional-cert/F8DFNFSYF32Q',
+      name: "Meta UI/UX Certificate",
+      image: meta_ux_ui,
+      url: 'https://www.coursera.org/account/accomplishments/verify/Q5BQRERGP7KH',
     },
   ];
   
@@ -248,27 +250,29 @@ import {
       ],
       image: dashboard,
       source_code_link: "https://github.com/saulkurosaki/DASHBOARD-PROJECT",
+      url: 'https://dashboardsaulproject.netlify.app/',
     },
     {
-      name: "Social Pin App",
+      name: "Metaverse Website",
       description:
-        "Social Media Pin Application to login with google, post your favorite images as pins, share posts, comment your friends images, follow your partners or favorite content creators and save awesome pins.",
+        "An amazing and outstanding Website to explore the future of the Metaverse, how it'll work, the latest news and updates about it, track the people around the world and connect with your friends.",
       tags: [
         {
-          name: "react",
+          name: "nextjs",
           color: "blue-text-gradient",
         },
         {
-          name: "sanity",
+          name: "tailwind",
           color: "green-text-gradient",
         },
         {
-          name: "google-auth-api",
+          name: "framermotion",
           color: "pink-text-gradient",
         },
       ],
-      image: virtualpinboard,
-      source_code_link: "https://github.com/saulkurosaki/SHAREME-SOCIAL-M-APP-PROJECT",
+      image: metaverse,
+      source_code_link: "https://github.com/saulkurosaki/METAVERSE-WEBSITE-PROJECT",
+      url: 'https://metaversussaulproject.netlify.app/',
     },
     {
       name: "Youtube Clone",
@@ -290,27 +294,29 @@ import {
       ],
       image: ytclone,
       source_code_link: "https://github.com/saulkurosaki/YOUTUBE-CLONE-PROJECT",
+      url: 'https://youtubeclonesaulproject.netlify.app/',
     },
     {
-      name: "Home Rent",
+      name: "Pinterest Clone",
       description:
-        "A home rental search application to see the most updated, fabulous and functional livings according to your needs. In which you can explore the infinity of best located apartments to live the life of your dreams.",
+        "Social Media Pin Application to login with google, post your favorite images as pins, share posts, comment your friends images, follow your partners or favorite content creators and save awesome pins.",
       tags: [
         {
-          name: "nextjs",
+          name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "chakraui",
+          name: "sanity",
           color: "green-text-gradient",
         },
         {
-          name: "rapidapi",
+          name: "google-auth-api",
           color: "pink-text-gradient",
         },
       ],
-      image: homerent,
-      source_code_link: "https://github.com/saulkurosaki/REAL-ESTATE-APP-PROJECT",
+      image: virtualpinboard,
+      source_code_link: "https://github.com/saulkurosaki/SHAREME-SOCIAL-M-APP-PROJECT",
+      url: 'https://sharemesaulproject.netlify.app/login',
     },
     {
       name: "Music Streaming App",
@@ -332,11 +338,12 @@ import {
       ],
       image: musicapp,
       source_code_link: "https://github.com/saulkurosaki/MUSIC-APP-PROJECT",
+      url: 'https://lyricsappsaulproject.netlify.app/',
     },
     {
       name: "Fitness Exercises App",
       description:
-        "The new training app to learn how to manage, perform your workout times and exercises and maintain your gains all by your self. In which you'll be capable to search any exercise available and learn how to do it the proper way.",
+        "The new training app to learn how to manage, perform your workout times and exercises and maintain your gains all by your self. In which you'll be capable to search any exercise available and learn how to perform it the proper way.",
       tags: [
         {
           name: "react",
@@ -353,6 +360,7 @@ import {
       ],
       image: fitnessapp,
       source_code_link: "https://github.com/saulkurosaki/FITNESS-EXERCISES-APP-PROJECT",
+      url: 'https://fitnessappsaulproject.netlify.app/',
     },
   ];
   
