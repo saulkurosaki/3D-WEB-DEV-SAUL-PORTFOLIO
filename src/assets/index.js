@@ -29,7 +29,7 @@ import udemy from "./company/udemy.png";
 import dashboard from "./dashboard.png";
 import virtualpinboard from "./virtualpinboard.png";
 import ytclone from "./ytclone.png";
-import homerent from "./homerent.png";
+import metaverse from "./Metaverse.png";
 import musicapp from "./musicapp.png";
 import fitnessapp from "./fitnessapp.png";
 
@@ -40,6 +40,8 @@ import meta_js from './certificates/meta_js.png';
 import udemy_adv_react from './certificates/udemy_adv_react.png';
 import udemy_mern from './certificates/udemy_mern.png';
 import udemy_fund_node from './certificates/udemy_fund_node.png';
+import meta_bas_react from './certificates/meta_react_basics.png';
+import meta_ux_ui from './certificates/meta_ux_ui.png';
 
 export {
   logo,
@@ -70,7 +72,7 @@ export {
   dashboard,
   virtualpinboard,
   ytclone,
-  homerent,
+  metaverse,
   musicapp,
   fitnessapp,
   meta_prof,
@@ -80,4 +82,6 @@ export {
   udemy_adv_react,
   udemy_mern,
   udemy_fund_node,
+  meta_bas_react,
+  meta_ux_ui,
 };
