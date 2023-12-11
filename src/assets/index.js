@@ -9,7 +9,7 @@ import close from "./close.svg";
 
 import css from "./tech/css.png";
 import githublogo from "./tech/githublogo.png";
-import api from "./tech/api.png";
+import nextjs from "./tech/next.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
@@ -19,7 +19,7 @@ import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
-import npm from "./tech/npm.png";
+import figma from "./tech/figma.png";
 
 import meta from "./company/meta.png";
 import dev from "./company/dev.png";
@@ -33,15 +33,15 @@ import metaverse from "./Metaverse.png";
 import musicapp from "./musicapp.png";
 import fitnessapp from "./fitnessapp.png";
 
-import meta_prof from './certificates/meta_prof.png';
-import meta_adv_react from './certificates/meta_adv_react.png';
-import meta_dev_caps from './certificates/meta_dev_caps.png';
-import meta_js from './certificates/meta_js.png';
-import udemy_adv_react from './certificates/udemy_adv_react.png';
-import udemy_mern from './certificates/udemy_mern.png';
-import udemy_fund_node from './certificates/udemy_fund_node.png';
-import meta_bas_react from './certificates/meta_react_basics.png';
-import meta_ux_ui from './certificates/meta_ux_ui.png';
+import meta_prof from "./certificates/meta_prof.png";
+import meta_adv_react from "./certificates/meta_adv_react.png";
+import meta_dev_caps from "./certificates/meta_dev_caps.png";
+import meta_js from "./certificates/meta_js.png";
+import udemy_adv_react from "./certificates/udemy_adv_react.png";
+import udemy_mern from "./certificates/udemy_mern.png";
+import udemy_fund_node from "./certificates/udemy_fund_node.png";
+import meta_bas_react from "./certificates/meta_react_basics.png";
+import meta_ux_ui from "./certificates/meta_ux_ui.png";
 
 export {
   logo,
@@ -54,7 +54,7 @@ export {
   close,
   css,
   github,
-  api,
+  nextjs,
   git,
   html,
   javascript,
@@ -64,7 +64,7 @@ export {
   redux,
   tailwind,
   typescript,
-  npm,
+  figma,
   meta,
   dev,
   utel,
