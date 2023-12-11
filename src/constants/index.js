@@ -13,7 +13,7 @@ import {
   nodejs,
   mongodb,
   git,
-  api,
+  nextjs,
   githublogo,
   meta,
   utel,
@@ -25,7 +25,7 @@ import {
   metaverse,
   musicapp,
   fitnessapp,
-  npm,
+  figma,
   meta_prof,
   meta_adv_react,
   meta_dev_caps,
@@ -93,6 +93,10 @@ const technologies = [
     icon: reactjs,
   },
   {
+    name: "Next JS",
+    icon: nextjs,
+  },
+  {
     name: "Redux Toolkit",
     icon: redux,
   },
@@ -109,20 +113,16 @@ const technologies = [
     icon: mongodb,
   },
   {
+    name: "Figma",
+    icon: figma,
+  },
+  {
     name: "git",
     icon: git,
   },
   {
     name: "github",
     icon: githublogo,
-  },
-  {
-    name: "Npm",
-    icon: npm,
-  },
-  {
-    name: "api",
-    icon: api,
   },
 ];
 
