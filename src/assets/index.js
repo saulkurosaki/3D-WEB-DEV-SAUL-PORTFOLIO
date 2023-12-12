@@ -39,8 +39,8 @@ import meta_dev_caps from "./certificates/meta_dev_caps.png";
 import meta_js from "./certificates/meta_js.png";
 import udemy_adv_react from "./certificates/udemy_adv_react.png";
 import udemy_mern from "./certificates/udemy_mern.png";
-import udemy_fund_node from "./certificates/udemy_fund_node.png";
-import meta_bas_react from "./certificates/meta_react_basics.png";
+import jsm_next from "./certificates/jsm_next.png";
+import jsm_react from "./certificates/jsm_react.png";
 import meta_ux_ui from "./certificates/meta_ux_ui.png";
 
 export {
@@ -81,7 +81,7 @@ export {
   meta_js,
   udemy_adv_react,
   udemy_mern,
-  udemy_fund_node,
-  meta_bas_react,
+  jsm_next,
+  jsm_react,
   meta_ux_ui,
 };
