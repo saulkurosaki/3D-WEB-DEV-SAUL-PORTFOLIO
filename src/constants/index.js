@@ -32,8 +32,8 @@ import {
   meta_js,
   udemy_adv_react,
   udemy_mern,
-  udemy_fund_node,
-  meta_bas_react,
+  jsm_next,
+  jsm_react,
   meta_ux_ui,
 } from "../assets";
 
@@ -188,9 +188,9 @@ const certificates = [
     url: "https://www.coursera.org/account/accomplishments/professional-cert/F8DFNFSYF32Q",
   },
   {
-    name: "Meta React Basics Certificate",
-    image: meta_bas_react,
-    url: "https://www.coursera.org/account/accomplishments/verify/YQPK7B9VDSH3",
+    name: "Meta JavaScript Certificate",
+    image: meta_js,
+    url: "https://www.coursera.org/account/accomplishments/verify/MKFKS6EP5G9S",
   },
   {
     name: "Meta Advanced React Certificate",
@@ -203,6 +203,21 @@ const certificates = [
     url: "https://www.coursera.org/account/accomplishments/verify/4RA7YBLB8APM",
   },
   {
+    name: "JSM Ultimate NextJs14 Certificate",
+    image: jsm_next,
+    url: "https://my.certifyme.online//verify/8b995ebb10546",
+  },
+  {
+    name: "JSM React Mastery Certificate",
+    image: jsm_react,
+    url: "https://www.my.certifyme.online//verify/cd54d61c2013",
+  },
+  {
+    name: "Principles of UI/UX Design",
+    image: meta_ux_ui,
+    url: "https://www.coursera.org/account/accomplishments/verify/Q5BQRERGP7KH",
+  },
+  {
     name: "Udemy Advanced React Certificate",
     image: udemy_adv_react,
     url: "https://www.udemy.com/certificate/UC-f46c9d42-bfc0-4909-b745-682e61787f36/",
@@ -211,21 +226,6 @@ const certificates = [
     name: "Udemy MERN Stack Certificate",
     image: udemy_mern,
     url: "https://www.udemy.com/certificate/UC-4696efc0-3172-4d4f-907c-b76b847086e3/",
-  },
-  {
-    name: "Udemy Html, Css, Js and NodeJs Certificate",
-    image: udemy_fund_node,
-    url: "https://www.udemy.com/certificate/UC-bb820daa-39f3-4187-8165-cdeb1f3da3bc/",
-  },
-  {
-    name: "Meta JavaScript Certificate",
-    image: meta_js,
-    url: "https://www.coursera.org/account/accomplishments/verify/MKFKS6EP5G9S",
-  },
-  {
-    name: "Meta UI/UX Certificate",
-    image: meta_ux_ui,
-    url: "https://www.coursera.org/account/accomplishments/verify/Q5BQRERGP7KH",
   },
 ];
 
